@@ -1,0 +1,29 @@
+.card-test{
+    border: 1px solid hsl(0, 0%, 100%) ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px /* horizontal offset, vertical offset, blur radius */
+     hsla(0, 0%, 100%, 0.2) /* Hue, Saturation, Lightness, Alpha */; 
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+
+.card-test .card-image{
+    max-width: 60%;
+    height: auto;
+    border-radius: 60%;
+    margin-bottom: 10px;
+}
+
+.card-test .card-title{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 80%);
+}
+
+.card-test .card-text{
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 80%);
+}
